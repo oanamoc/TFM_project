@@ -1,0 +1,9 @@
+TebLocalPlannerROS:
+  odom_topic: odom
+  map_frame: map
+  footprint_model:
+    type: "point"
+  max_vel_x: 0.5
+  max_vel_theta: 1.0
+  acc_lim_x: 0.5
+  acc_lim_theta: 1.0

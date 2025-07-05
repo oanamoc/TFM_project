@@ -1,0 +1,15 @@
+controllers:
+  # - name: 'tracking_pid'
+  #   type: 'tracking_pid/TrackingPidLocalPlanner'
+  # - name: 'dwa'
+  #   type: 'dwa_local_planner/DWAPlannerROS'
+  - name: 'teb'
+    type: 'teb_local_planner/TebLocalPlannerROS'
+
+controller:
+  # holonomic_robot: false
+  default_controller: 'teb'
+
+mbf_tolerance_check: true
+dist_tolerance: 0.2
+angle_tolerance: 0.5
