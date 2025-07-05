@@ -1,7 +1,0 @@
-<launch>
- 
-    <!-- Launch Hector SLAM first -->
-    <include file="$(find hector_slam_launch)/launch/tutorial.launch" />
-
-</launch>
-
